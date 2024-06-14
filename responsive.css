@@ -5,10 +5,16 @@
     background: linear-gradient(to bottom, #51453e 80%, #ba8b02, #51453e);
   }
 
-  /* .barra_navegacion {
-    border: red 1px solid;
+  header {
+    /* border: red 1px solid; */
     justify-content: center;
-  } */
+    background-color: aliceblue;
+  }
+  .barra_navegacion {
+    /* border: red 1px solid; */
+    justify-content: space-around;
+    /* background-color: aliceblue; */
+  }
 
   .nav ul {
     display: flex;
