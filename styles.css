@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   list-style: none;
+  text-decoration: none;
 }
 
 :root {
@@ -13,11 +14,15 @@
 
 body {
   /* background: linear-gradient(to right, #51453e 60%, #f7cc06); */
-  background: linear-gradient(to right, #51453e 60%, #ba8b02);
+  background: linear-gradient(to right, #51453e 60%, #ba8b02, #51453e);
+  /* border: 1px red solid; */
 
   font-family: rubik;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
   /* align-items: center;
   justify-content: center;
   align-content: center; */
@@ -28,26 +33,40 @@ body {
   background: linear-gradient(to right, #51453e 60%, #ba8b02);
   justify-content: space-between;
   align-items: center;
-  padding: 40px 20px;
+  padding: 30px 20px;
   height: 30px;
   min-width: 1000px;
+  color: var(--text-color);
   /* border: 2px red solid; */
 }
 .barra_navegacion img {
-  height: 40px;
+  height: 30px;
 }
 
 .nav {
   display: flex;
-  color: aliceblue;
+  /* color: red; */
+  /* border: 2px red solid; */
+}
+li a {
+  /* border: 2px red solid; */
+  color: var(--text-color);
 }
 
+nav li {
+  color: var(--text-color);
+  /* border: 2px red solid; */
+  text-decoration: none;
+}
 ul {
   display: flex;
   gap: 90px;
   padding: 0 40px;
 }
 
+.barra_navegacion .li {
+  color: var(--text-color);
+}
 /* section hero */
 
 /* section {
@@ -175,4 +194,16 @@ ul {
 }
 button {
   cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 10px;
+    color: aqua;
+  }
 }
