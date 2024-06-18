@@ -42,7 +42,7 @@
     display: none;
     gap: 100px;
     font-size: 16px;
-    border: 1px red solid;
+    /* border: 1px red solid; */
   }
 
   .boton-menu {
@@ -166,5 +166,6 @@
   }
   .items-nav {
     height: calc(100vh-20px);
+    top: 30px;
   }
 }
