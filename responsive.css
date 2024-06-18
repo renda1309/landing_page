@@ -126,6 +126,14 @@
 }
 
 @media (max-width: 576px) {
+  header {
+    height: 40px;
+  }
+
+  .hero {
+    padding: 60px;
+  }
+
   .info-hero p {
     font-size: 12px;
     max-width: 300px;
