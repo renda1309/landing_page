@@ -129,7 +129,7 @@
   .info-hero p {
     font-size: 12px;
     max-width: 300px;
-    border: 1px red solid;
+    /* border: 1px red solid; */
   }
   .info-servicios h2 {
     font-size: 1rem;
