@@ -138,6 +138,7 @@
 
   .barra_navegacion {
     height: 30px;
+    border: 1px red solid;
   }
   .barra_navegacion img {
     height: 20px;
@@ -147,8 +148,8 @@
     padding: 40px;
     gap: 20px;
   }
-  .hero-img {
-    border: #2c252241 2px solid;
+  .hero img {
+    border: #2c252241 10px solid;
   }
   .info-hero p {
     font-size: 12px;
