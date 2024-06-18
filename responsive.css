@@ -148,7 +148,7 @@
     gap: 20px;
   }
   .hero-img {
-    border: 2px solid var(--principal-color);
+    border: #51453e41 2px solid;
   }
   .info-hero p {
     font-size: 12px;
