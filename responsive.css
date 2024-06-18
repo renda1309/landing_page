@@ -75,7 +75,7 @@
   .info-hero p {
     font-size: 12px;
     max-width: 400px;
-    border: 1px red solid;
+    /* border: 1px red solid; */
   }
   .more-info {
     font-size: 10px;
