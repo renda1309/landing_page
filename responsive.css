@@ -148,10 +148,10 @@
     height: 20px;
   }
 
-  main {
+  /* main {
     display: flex;
     gap: 40px;
-  }
+  } */
 
   .hero {
     padding: 40px;
