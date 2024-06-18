@@ -97,7 +97,8 @@
 
   .info-servicios h2 {
     font-size: 1.2rem;
-    max-width: 400px;
+    max-width: 700px;
+    color: aliceblue;
   }
 
   .info-servicios p {
