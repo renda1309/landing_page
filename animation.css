@@ -69,6 +69,6 @@ button:hover {
 
 .more-info,
 .suscribe {
-  animation: translateY-info-hero 3s forwards 1;
-  -webkit-animation: translateY-info-hero 3s forwards 1;
+  /* animation: translateY-info-hero 3s forwards 1; */
+  /* -webkit-animation: translateY-info-hero 3s forwards 1; */
 }
