@@ -173,5 +173,6 @@
   .items-nav {
     height: calc(100vh-20px);
     top: 30px;
+    font-size: 12px;
   }
 }
