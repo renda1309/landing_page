@@ -139,7 +139,7 @@
   .barra_navegacion {
     height: 25px;
     /* border: 1px red solid; */
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
     padding: 10px 20px;
@@ -153,7 +153,7 @@
     gap: 20px;
   }
   .hero img {
-    border: #2c252241 10px solid;
+    border: #ba8b02 10px solid;
   }
   .info-hero p {
     font-size: 12px;
