@@ -132,8 +132,10 @@
   .barra_navegacion img {
     height: 20px;
   }
+
   .hero {
     padding: 60px;
+    gap: 20px;
   }
 
   .info-hero p {
