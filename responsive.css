@@ -129,7 +129,9 @@
   header {
     height: 40px;
   }
-
+  .barra_navegacion img {
+    height: 20px;
+  }
   .hero {
     padding: 60px;
   }
