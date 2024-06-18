@@ -1,3 +1,9 @@
+:root {
+  --principal-color: #51453e;
+  --secondary-color: #ba8b02;
+  --text-color: aliceblue;
+}
+
 @media (max-width: 992px) {
   body {
     display: flex;
@@ -127,7 +133,7 @@
 
 @media (max-width: 576px) {
   header {
-    height: 40px;
+    height: 30px;
   }
 
   .barra_navegacion {
@@ -141,7 +147,9 @@
     padding: 40px;
     gap: 20px;
   }
-
+  .hero-img {
+    border: 2px solid var(--principal-color);
+  }
   .info-hero p {
     font-size: 12px;
     max-width: 300px;
