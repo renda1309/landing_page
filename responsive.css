@@ -15,11 +15,31 @@
     justify-content: space-around;
     /* background-color: aliceblue; */
   }
-
-  .nav ul {
-    display: flex;
-    gap: 5px;
+  .items-nav li {
+    width: 100%;
+    /* height: calc(100vh-30px); */
+    /* position: absolute; */
+    top: 60px;
+    left: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px 0; */
+    display: none;
   }
+
+  .boton-menu {
+    display: block;
+  }
+  h1 {
+    font-size: 10px;
+    color: aqua;
+  }
+
+  #toggle-menu:checked ~ .items-nav li {
+    display: flex;
+  }
+
   .hero {
     display: flex;
     flex-direction: column-reverse;
