@@ -153,7 +153,7 @@
     gap: 20px;
   }
   .hero img {
-    border: #ba8b02 10px solid;
+    border: #ba8c0233 6px solid;
   }
   .info-hero p {
     font-size: 12px;
@@ -163,5 +163,8 @@
   .info-servicios h2 {
     font-size: 1rem;
     max-width: 600px;
+  }
+  .items-nav {
+    padding: 40px;
   }
 }
