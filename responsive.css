@@ -133,11 +133,11 @@
 
 @media (max-width: 576px) {
   header {
-    height: 25px;
+    height: 30px;
   }
 
   .barra_navegacion {
-    height: 25px;
+    height: 30px;
     /* border: 1px red solid; */
     justify-content: space-between;
     align-items: center;
