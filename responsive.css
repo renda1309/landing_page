@@ -133,13 +133,13 @@
 
 @media (max-width: 576px) {
   header {
-    height: 30px;
+    height: 25px;
   }
 
   .barra_navegacion {
-    height: 20px;
+    height: 25px;
     /* border: 1px red solid; */
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
     padding: 10px 20px;
