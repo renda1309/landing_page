@@ -10,11 +10,39 @@
   body {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(
+    /* background: linear-gradient(
       to bottom,
       var(--principal-color),
       var(--secondary-color)
-    );
+    ); */
+    background-image: linear-gradient(
+        45deg,
+        transparent 0%,
+        transparent 27%,
+        #b40a0a0f 27%,
+        #d6d6d60f 38%,
+        transparent 38%,
+        transparent 100%
+      ),
+      linear-gradient(
+        45deg,
+        transparent 0%,
+        transparent 39%,
+        #51453eb2 39%,
+        #51453ea2 68%,
+        transparent 68%,
+        transparent 100%
+      ),
+      linear-gradient(
+        90deg,
+        transparent 0%,
+        transparent 74%,
+        #51453e11 74%,
+        #51453e25 79%,
+        transparent 79%,
+        transparent 100%
+      ),
+      linear-gradient(90deg, #51453e, #ba8c02);
   }
 
   header {
@@ -166,7 +194,7 @@
     gap: 20px;
   }
   .hero img {
-    border: #ba8c0233 6px solid;
+    border: #ba8c02ad 6px solid;
   }
   .info-hero p {
     font-size: 12px;

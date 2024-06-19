@@ -1,15 +1,14 @@
 @keyframes buttons {
   0% {
     opacity: 0;
-    background-color: #51453e;
   }
   100% {
     opacity: 1;
-    background-color: #ba8b02;
+    background-color: #51453e;
   }
 }
 
-button:hover {
+buttons:hover {
   animation: buttons 2s;
   -webkit-animation: buttons 2s;
 }
@@ -83,6 +82,6 @@ button:hover {
 }
 
 .items-nav {
-  animation: translate-menu 1s;
-  -webkit-animation: translate-menu 1s;
+  animation: translate-menu 1.5s;
+  -webkit-animation: translate-menu 1.5s;
 }

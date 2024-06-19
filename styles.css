@@ -14,9 +14,45 @@
 
 body {
   /* background: linear-gradient(to right, #51453e 60%, #f7cc06); */
-  background: linear-gradient(to right, #51453e 60%, #ba8b02, #51453e);
+  /* background: linear-gradient(to right, #51453e 60%, #ba8b02, #51453e); */
   /* border: 1px red solid; */
-
+  background-image: linear-gradient(
+      135deg,
+      transparent 0%,
+      transparent 50%,
+      #ba8b02 50%,
+      #51453e 77%,
+      transparent 77%,
+      transparent 100%
+    ),
+    linear-gradient(
+      90deg,
+      transparent 0%,
+      transparent 91%,
+      #51453e 91%,
+      #51453e 99%,
+      transparent 99%,
+      transparent 100%
+    ),
+    linear-gradient(
+      135deg,
+      transparent 0%,
+      transparent 24%,
+      #9f9f9f12 24%,
+      #9f9f9f12 63%,
+      transparent 63%,
+      transparent 100%
+    ),
+    linear-gradient(
+      0deg,
+      transparent 0%,
+      transparent 49%,
+      #9f9f9f12 49%,
+      #9f9f9f12 63%,
+      transparent 63%,
+      transparent 100%
+    ),
+    linear-gradient(90deg, #51453e, #000000);
   font-family: rubik;
   display: flex;
   flex-direction: column;
@@ -86,7 +122,7 @@ ul {
   justify-content: center;
   align-items: center;
   align-content: center;
-  padding: 100px;
+  padding: 200px 0 100px 0;
   gap: 100px;
 }
 
@@ -159,7 +195,7 @@ ul {
 
 .info-servicios h2 {
   font-size: 2rem;
-  color: var(--secondary-color);
+  color: var(--text-color);
 }
 
 .info-servicios p {
