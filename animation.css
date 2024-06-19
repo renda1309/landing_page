@@ -72,3 +72,17 @@ button:hover {
   /* animation: translateY-info-hero 3s forwards 1; */
   /* -webkit-animation: translateY-info-hero 3s forwards 1; */
 }
+
+@keyframes translate-menu {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.items-nav {
+  animation: translate-menu 1s;
+  -webkit-animation: translate-menu 1s;
+}
