@@ -213,7 +213,9 @@ ul {
 
 .info-hero h1 {
   font-size: 3rem;
-  color: var(--secondary-color);
+  background: linear-gradient(rgb(25, 190, 255), rgba(0, 0, 255, 0.568));
+  color: transparent;
+  background-clip: text;
   letter-spacing: 2px;
   font-weight: 700;
 }
