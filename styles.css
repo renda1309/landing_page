@@ -7,8 +7,13 @@
 }
 
 :root {
-  --principal-color: #51453e;
-  --secondary-color: #ba8b02;
+  /* --principal-color: #51453e;
+  --secondary-color: #ba8b02; */
+  /* --principal-color: #db580db7;
+  --secondary-color: #402fa0; */
+  --principal-color: black;
+  --secondary-color: #24cfbe;
+  --text-title: #6a55dd;
   --text-color: aliceblue;
 }
 
@@ -17,42 +22,75 @@ body {
   /* background: linear-gradient(to right, #51453e 60%, #ba8b02, #51453e); */
   /* border: 1px red solid; */
   background-image: linear-gradient(
-      135deg,
-      transparent 0%,
-      transparent 50%,
-      #ba8b02 50%,
-      #51453e 77%,
-      transparent 77%,
-      transparent 100%
+      67.5deg,
+      rgb(6, 6, 6) 0%,
+      rgb(6, 6, 6) 6%,
+      rgb(29, 29, 29) 6%,
+      rgb(29, 29, 29) 57%,
+      rgb(52, 52, 52) 57%,
+      rgb(52, 52, 52) 58%,
+      rgb(52, 145, 143) 58%,
+      rgb(52, 145, 143) 79%,
+      rgb(67, 124, 125) 79%,
+      rgb(67, 124, 125) 93%,
+      rgb(53, 86, 86) 93%,
+      rgb(53, 86, 86) 95%,
+      rgb(143, 143, 143) 95%,
+      rgb(143, 143, 143) 100%
     ),
     linear-gradient(
       90deg,
-      transparent 0%,
-      transparent 91%,
-      #51453e 91%,
-      #51453e 99%,
-      transparent 99%,
-      transparent 100%
+      rgb(6, 6, 6) 0%,
+      rgb(6, 6, 6) 6%,
+      rgb(29, 29, 29) 6%,
+      rgb(29, 29, 29) 57%,
+      rgb(52, 52, 52) 57%,
+      rgb(52, 52, 52) 58%,
+      rgb(52, 145, 143) 58%,
+      rgb(52, 145, 143) 79%,
+      rgb(67, 124, 125) 79%,
+      rgb(67, 124, 125) 93%,
+      rgb(53, 86, 86) 93%,
+      rgb(53, 86, 86) 95%,
+      rgb(143, 143, 143) 95%,
+      rgb(143, 143, 143) 100%
     ),
     linear-gradient(
       135deg,
-      transparent 0%,
-      transparent 24%,
-      #9f9f9f12 24%,
-      #9f9f9f12 63%,
-      transparent 63%,
-      transparent 100%
+      rgb(6, 6, 6) 0%,
+      rgb(6, 6, 6) 6%,
+      rgb(29, 29, 29) 6%,
+      rgb(29, 29, 29) 57%,
+      rgb(52, 52, 52) 57%,
+      rgb(52, 52, 52) 58%,
+      rgb(52, 145, 143) 58%,
+      rgb(52, 145, 143) 79%,
+      rgb(67, 124, 125) 79%,
+      rgb(67, 124, 125) 93%,
+      rgb(53, 86, 86) 93%,
+      rgb(53, 86, 86) 95%,
+      rgb(143, 143, 143) 95%,
+      rgb(143, 143, 143) 100%
     ),
     linear-gradient(
       0deg,
-      transparent 0%,
-      transparent 49%,
-      #9f9f9f12 49%,
-      #9f9f9f12 63%,
-      transparent 63%,
-      transparent 100%
+      rgb(6, 6, 6) 0%,
+      rgb(6, 6, 6) 6%,
+      rgb(29, 29, 29) 6%,
+      rgb(29, 29, 29) 57%,
+      rgb(52, 52, 52) 57%,
+      rgb(52, 52, 52) 58%,
+      rgb(52, 145, 143) 58%,
+      rgb(52, 145, 143) 79%,
+      rgb(67, 124, 125) 79%,
+      rgb(67, 124, 125) 93%,
+      rgb(53, 86, 86) 93%,
+      rgb(53, 86, 86) 95%,
+      rgb(143, 143, 143) 95%,
+      rgb(143, 143, 143) 100%
     ),
-    linear-gradient(90deg, #51453e, #000000);
+    linear-gradient(90deg, rgb(70, 154, 154), rgb(221, 221, 221));
+  background-blend-mode: overlay, overlay, overlay, overlay, normal;
   font-family: rubik;
   display: flex;
   flex-direction: column;
@@ -66,7 +104,12 @@ body {
 
 .barra_navegacion {
   display: flex;
-  background: linear-gradient(to right, #51453e 60%, #ba8b02, #51453e);
+  background: linear-gradient(
+    to right,
+    var(--principal-color) 30%,
+    #39ffeb77,
+    var(--principal-color)
+  );
   justify-content: space-between;
   align-items: center;
   padding: 30px 20px;
@@ -75,9 +118,29 @@ body {
   position: fixed;
   color: var(--text-color);
   /* border: 2px red solid; */
+  z-index: 2;
 }
-.barra_navegacion img {
+.barra_navegacion .logo-img {
   height: 30px;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.logo p {
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.logo-img {
+  color: white;
 }
 
 .nav {
@@ -94,6 +157,7 @@ nav li {
   color: var(--text-color);
   /* border: 2px red solid; */
   text-decoration: none;
+  letter-spacing: 5px;
 }
 ul {
   display: flex;
@@ -127,8 +191,8 @@ ul {
 }
 
 .hero img {
-  background-color: #7e6a0f34;
-  border: #51453e 7px solid;
+  background-color: transparent;
+  border: rgb(0, 0, 0) 7px solid;
   width: 500px;
   padding: 40px;
   border-radius: 20px;
@@ -150,11 +214,15 @@ ul {
 .info-hero h1 {
   font-size: 3rem;
   color: var(--secondary-color);
+  letter-spacing: 2px;
+  font-weight: 700;
 }
 .info-hero p {
   font-size: 16px;
   font-weight: 300;
   max-width: 450px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
 }
 
 .buttons-hero {
@@ -176,8 +244,8 @@ ul {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  background-color: var(--secondary-color);
-  color: var(--text-color);
+  background-color: turquoise;
+  color: black;
   font-size: 16px;
   font-weight: 600;
 }
@@ -203,12 +271,16 @@ ul {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
 }
 
 .info-servicios span {
   font-weight: 700;
   font-size: 18px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
 }
 
 .info-servicios button {
@@ -221,8 +293,8 @@ ul {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  background-color: var(--secondary-color);
-  color: var(--text-color);
+  background-color: turquoise;
+  color: black;
   font-size: 16px;
   font-weight: 600;
 }
