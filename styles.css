@@ -309,10 +309,10 @@ button {
   height: 400px;
   border: 8px solid turquoise;
   border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
+  -webkit-border-radius: ;
+  -moz-border-radius: ;
+  -ms-border-radius: ;
+  -o-border-radius: ;
   padding: 60px;
   display: flex;
   flex-direction: column;
@@ -362,3 +362,27 @@ button {
 }
 
 /* -------------CONTACTO---------------- */
+
+.contacto {
+  display: flex;
+  color: var(--text-color);
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 60px 60px;
+  gap: 200px;
+  width: 1600px;
+  border: 8px solid turquoise;
+  -webkit-border-radius: 8px solid turquoise;
+  -moz-border-radius: 8px solid turquoise;
+  -ms-border-radius: 8px solid turquoise;
+  -o-border-radius: 8px solid turquoise;
+}
+
+.contacto-redes img {
+  width: 40px;
+}
+
+.contacto-img img {
+  width: 200px;
+}
