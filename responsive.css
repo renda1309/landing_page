@@ -188,7 +188,7 @@
     width: 100%;
   }
   h1 {
-    font-size: 14px;
+    font-size: 20px;
     color: aqua;
   }
   .hero {
@@ -199,7 +199,7 @@
     padding: 100px 0;
   }
   .hero img {
-    max-width: 300px;
+    max-width: 500px;
   }
   .info-hero h1 {
     font-size: 2rem;
@@ -331,7 +331,7 @@
     gap: 20px;
   }
   .hero img {
-    border: #ba8c02ad 6px solid;
+    border: black 6px solid;
   }
   .info-hero p {
     font-size: 12px;
