@@ -374,5 +374,6 @@
     align-items: center;
     align-content: center;
     margin: 20px auto;
+    padding: 0 20px;
   }
 }
