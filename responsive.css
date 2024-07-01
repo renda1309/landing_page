@@ -367,4 +367,9 @@
   .contacto-img img {
     max-width: 100%;
   }
+
+  .contacto-datos {
+    max-width: 300px;
+    text-align: center;
+  }
 }
