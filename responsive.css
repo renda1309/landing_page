@@ -332,6 +332,7 @@
   }
   .hero img {
     border: black 6px solid;
+    max-width: 300px;
   }
   .info-hero p {
     font-size: 12px;
