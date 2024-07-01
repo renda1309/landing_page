@@ -365,18 +365,57 @@ button {
 
 .contacto {
   display: flex;
+  /* max-width: 1600px; */
   color: var(--text-color);
+  /* flex-direction: row; */
   justify-content: center;
   align-items: center;
   align-content: center;
-  padding: 60px 60px;
-  gap: 200px;
-  width: 1600px;
+  padding: 60px 0px;
+  gap: 100px;
+}
+
+.contacto-container {
+  display: flex;
   border: 8px solid turquoise;
-  -webkit-border-radius: 8px solid turquoise;
-  -moz-border-radius: 8px solid turquoise;
-  -ms-border-radius: 8px solid turquoise;
-  -o-border-radius: 8px solid turquoise;
+  padding: 120px;
+  gap: 200px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.contacto-datos {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+
+.contacto1,
+.contacto2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contacto-redes {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: start;
+  align-content: center;
+}
+
+.contacto-arg-esp {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
 }
 
 .contacto-redes img {
@@ -384,5 +423,22 @@ button {
 }
 
 .contacto-img img {
-  width: 200px;
+  width: 600px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.contacto1 img,
+.contacto2 img {
+  width: 15px;
+}
+
+footer img {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
 }

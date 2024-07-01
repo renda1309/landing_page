@@ -7,7 +7,7 @@
       var(--principal-color),
       var(--secondary-color)
     ); */
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
         45deg,
         transparent 0%,
         transparent 27%,
@@ -34,17 +34,20 @@
         transparent 79%,
         transparent 100%
       ),
-      linear-gradient(90deg, #51453e, #ba8c02);
+      linear-gradient(90deg, #51453e, #ba8c02); */
   }
 
   header {
     /* border: red 1px solid; */
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
     background-color: aliceblue;
     display: flex;
+    /* margin: 0 auto; */
     height: 60px;
+    width: 100%;
   }
 
   /*------------- MENU DESPLEGABLE------------- */
@@ -53,33 +56,75 @@
     /*background: linear-gradient(to right, #51453e 60%, #ba8b02, #51453e);
     */
     background-image: linear-gradient(
-        68deg,
-        transparent 0%,
-        transparent 60%,
-        rgba(186, 140, 2, 0.36) 60%,
-        rgba(186, 140, 2, 0.36) 93%,
-        transparent 93%,
-        transparent 100%
+        67.5deg,
+        rgb(6, 6, 6) 0%,
+        rgb(6, 6, 6) 6%,
+        rgb(29, 29, 29) 6%,
+        rgb(29, 29, 29) 57%,
+        rgb(52, 52, 52) 57%,
+        rgb(52, 52, 52) 58%,
+        rgb(52, 145, 143) 58%,
+        rgb(52, 145, 143) 79%,
+        rgb(67, 124, 125) 79%,
+        rgb(67, 124, 125) 93%,
+        rgb(53, 86, 86) 93%,
+        rgb(53, 86, 86) 95%,
+        rgb(143, 143, 143) 95%,
+        rgb(143, 143, 143) 100%
       ),
       linear-gradient(
-        203deg,
-        transparent 0%,
-        transparent 55%,
-        rgba(186, 140, 2, 0.36) 55%,
-        rgba(186, 140, 2, 0.36) 84%,
-        transparent 84%,
-        transparent 100%
+        90deg,
+        rgb(6, 6, 6) 0%,
+        rgb(6, 6, 6) 6%,
+        rgb(29, 29, 29) 6%,
+        rgb(29, 29, 29) 57%,
+        rgb(52, 52, 52) 57%,
+        rgb(52, 52, 52) 58%,
+        rgb(52, 145, 143) 58%,
+        rgb(52, 145, 143) 79%,
+        rgb(67, 124, 125) 79%,
+        rgb(67, 124, 125) 93%,
+        rgb(53, 86, 86) 93%,
+        rgb(53, 86, 86) 95%,
+        rgb(143, 143, 143) 95%,
+        rgb(143, 143, 143) 100%
       ),
       linear-gradient(
-        68deg,
-        transparent 0%,
-        transparent 80%,
-        rgba(186, 140, 2, 0.36) 80%,
-        rgba(186, 140, 2, 0.36) 94%,
-        transparent 94%,
-        transparent 100%
+        135deg,
+        rgb(6, 6, 6) 0%,
+        rgb(6, 6, 6) 6%,
+        rgb(29, 29, 29) 6%,
+        rgb(29, 29, 29) 57%,
+        rgb(52, 52, 52) 57%,
+        rgb(52, 52, 52) 58%,
+        rgb(52, 145, 143) 58%,
+        rgb(52, 145, 143) 79%,
+        rgb(67, 124, 125) 79%,
+        rgb(67, 124, 125) 93%,
+        rgb(53, 86, 86) 93%,
+        rgb(53, 86, 86) 95%,
+        rgb(143, 143, 143) 95%,
+        rgb(143, 143, 143) 100%
       ),
-      linear-gradient(158deg, rgb(81, 69, 62), rgb(81, 69, 62));
+      linear-gradient(
+        0deg,
+        rgb(6, 6, 6) 0%,
+        rgb(6, 6, 6) 6%,
+        rgb(29, 29, 29) 6%,
+        rgb(29, 29, 29) 57%,
+        rgb(52, 52, 52) 57%,
+        rgb(52, 52, 52) 58%,
+        rgb(52, 145, 143) 58%,
+        rgb(52, 145, 143) 79%,
+        rgb(67, 124, 125) 79%,
+        rgb(67, 124, 125) 93%,
+        rgb(53, 86, 86) 93%,
+        rgb(53, 86, 86) 95%,
+        rgb(143, 143, 143) 95%,
+        rgb(143, 143, 143) 100%
+      ),
+      linear-gradient(90deg, rgb(70, 154, 154), rgb(221, 221, 221));
+    background-blend-mode: overlay, overlay, overlay, overlay, normal;
     height: calc(100vh-60px);
     position: absolute;
     width: 80%;
@@ -104,12 +149,19 @@
 
   .boton-menu {
     display: block;
+    /* border: 1px red solid; */
+    width: 30px;
+    color: wheat;
   }
 
   #toggle-menu:checked ~ .items-nav {
     display: flex;
   }
 
+  .items-nav {
+    /* border: 1px red solid; */
+    background-color: red;
+  }
   /* ---------OVERLAY------------ */
   .overlay {
     /* background: red; */
@@ -132,6 +184,9 @@
     display: block;
   }
 
+  main {
+    width: 100%;
+  }
   h1 {
     font-size: 14px;
     color: aqua;
@@ -182,7 +237,7 @@
   }
 
   .info-servicios h2 {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     max-width: 700px;
     color: aliceblue;
   }
@@ -200,7 +255,7 @@
 
   .info-servicios button {
     font-size: 12px;
-    background-color: var(--principal-color);
+    background-color: var(--secondary-color);
     padding: 5px 10px;
     border-radius: 5px;
     align-items: center;
@@ -208,6 +263,37 @@
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+  }
+
+  .beneficios {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100%;
+    /* border: 1px red solid; */
+    margin: 0 auto;
+  }
+  .beneficios-cards {
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100%;
+    /* border: 1px red solid; */
+    margin: 0 auto;
+  }
+  .contacto {
+    padding: 10px;
+  }
+
+  .contacto-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100%;
+    /* border: 1px red solid; */
+    margin: 0 auto;
+  }
+
+  .contacto-img img {
+    max-width: 100%;
   }
 }
 
@@ -226,6 +312,12 @@
   }
   .barra_navegacion img {
     height: 20px;
+  }
+  .logo img {
+    width: 25px;
+  }
+  .barra_navegacion p {
+    font-size: 1.5rem;
   }
 
   main {
@@ -254,5 +346,24 @@
     height: calc(100vh-20px);
     top: 30px;
     font-size: 12px;
+  }
+  .beneficios {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  .beneficios-cards {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  .contacto-img img {
+    max-width: 100%;
   }
 }
