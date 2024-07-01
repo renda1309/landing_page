@@ -1,3 +1,24 @@
+@keyframes links-nav {
+  0% {
+  }
+  100% {
+    background: white;
+    border: 1px solid white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: turquoise;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+}
+
+.items-nav a:hover {
+  animation: links-nav 0.5s forwards;
+  -webkit-animation: links-nav 0.5s forwards;
+}
+
 @keyframes buttons {
   0% {
     opacity: 0;
@@ -79,13 +100,63 @@ buttons:hover {
 @keyframes translate-menu {
   0% {
     opacity: 0;
+    transform: translateX(700px);
+    -webkit-transform: translateX(700px);
+    -moz-transform: translateX(700px);
+    -ms-transform: translateX(700px);
+    -o-transform: translateX(700px);
   }
   100% {
     opacity: 1;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
   }
 }
 
 .items-nav {
   animation: translate-menu 1s;
   -webkit-animation: translate-menu 1s;
+}
+
+@keyframes beneficios {
+  0% {
+    opacity: 0;
+    background: transparent;
+    color: transparent;
+    transform: translateY(600px);
+    -webkit-transform: ;
+    -moz-transform: ;
+    -ms-transform: ;
+    -o-transform: ;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: ;
+    -moz-transform: ;
+    -ms-transform: ;
+    -o-transform: ;
+  }
+}
+
+.beneficios-cards .container:nth-child(1) {
+  animation: beneficios 1s 1s forwards;
+  -webkit-animation: beneficios 1s 1s forwards;
+}
+
+.beneficios-cards .container:nth-child(2) {
+  animation: beneficios 1s 1.3s forwards;
+  -webkit-animation: beneficios 1s 1.3s forwards;
+}
+
+.beneficios-cards .container:nth-child(3) {
+  animation: beneficios 1s 1.5s forwards;
+  -webkit-animation: beneficios 1s 1.5s forwards;
+}
+
+.contacto-redes a:hover {
+  scale: 1.3;
 }
