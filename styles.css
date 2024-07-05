@@ -361,8 +361,9 @@ button {
 
 .contacto {
   display: flex;
-  /* max-width: 1600px; */
+  max-width: 1600px;
   color: var(--text-color);
+  margin: 0 auto;
   /* flex-direction: row; */
   justify-content: center;
   align-items: center;
